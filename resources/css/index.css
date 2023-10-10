@@ -1,0 +1,155 @@
+/*General Styles*/
+
+html {
+    font-family: 'Playfair Display', Helvetica;
+    background-color: #c4fab9;
+    color: #232422;
+}
+
+h2 {
+    text-align: center;
+    font-weight: 500;
+} 
+
+h1 {
+    font-size: 30px;
+}
+
+
+/*Navbar Section*/
+
+.navbar {
+    margin: 0 auto;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: #70cc5e;
+}
+
+.navbar ul {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    display: inline-block;
+    margin: 5px 0.6em;
+    text-align: center;
+    text-decoration: none;
+    list-style: none;
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 25px;
+    color: #414240;
+}
+
+.navbar a:hover {
+    color: white;
+}
+
+/*Header Section*/
+
+.header h1 {
+    text-align: center;
+    font-size: 30px;
+}
+
+/*Colors section*/
+
+.colors {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 10%; 
+}
+
+.color {
+    display: inline-block;
+    width: 15em;
+    margin: 1em 2em;
+    border-radius: 20px;
+}
+
+#background {
+    background-color: #c4fab9;
+}
+
+#navbarcolor {
+    background-color: #70cc5e;
+}
+
+#textcolor {
+    background-color: #232422;
+    color: white;
+}
+
+#mint {
+    background-color: #44f298;
+}
+
+.color p {
+    margin-left: 10px;
+}
+
+/*Fonts section*/
+
+.fonts_section {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3rem;
+}
+
+.fonts {
+    display: inline-block;
+    width: 15em;
+    margin: 1em 1em;
+    padding: 0 10px 10px 10px;
+    height: 210px;
+}
+
+.fonts#roboto {
+    font-family: 'Roboto Condensed';
+}
+
+.fonts#raleway {
+    font-family: raleway;
+}
+
+.fonts#cormorant {
+    font-family: cormorant;
+}
+
+.italic {
+    font-style: italic;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+/*Text Styles Section*/
+
+.text_styles {
+    background-color: whitesmoke;
+    border: 1px solid black;
+    border-radius: 20px;
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 3rem;
+}
+
+.text_styles div {
+    margin: 1em 2em;
+}
+
+#not_centered {
+    text-align: left;
+}
